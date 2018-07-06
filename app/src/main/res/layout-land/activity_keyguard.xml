@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title_layout" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="100px">
+
+        <LinearLayout
+            android:id="@+id/desc_container"
+            android:layout_width="737px"
+            android:layout_height="450px"
+            android:layout_below="@+id/info"
+            android:layout_marginLeft="50px"
+            android:background="@drawable/icon_text_bg"
+            android:orientation="vertical"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:paddingTop="40px">
+
+
+            <TextView
+                style="@style/PromptFont"
+                android:layout_marginTop="0dp"
+                android:drawableLeft="@drawable/icon_about"
+                android:drawablePadding="20px"
+                android:gravity="center_vertical"
+                android:text="@string/prompt"
+                android:textColor="#9b9b9b"
+                android:textSize="36px" />
+
+            <TextView
+                style="@style/PromptFont"
+                android:text="@string/use_prompt1" />
+
+            <TextView
+                android:id="@+id/tv_prompt_font"
+                style="@style/PromptFont"
+                android:text="@string/use_prompt2" />
+
+            <TextView
+                style="@style/PromptFont"
+                android:text="@string/use_prompt3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:layout_marginTop="50px"
+                android:src="@drawable/icon_second_count_down" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="155px"
+                android:layout_marginLeft="20px"
+                android:text="30"
+                android:textColor="#bbbbbb"
+                android:textSize="144px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="sec"
+                android:textSize="64px" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/pwd_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="50px"
+        android:paddingRight="50px">
+
+        <EditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_edittext_bg"
+            android:hint="@string/pwd_hint_two"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:src="@drawable/clear"
+            android:textSize="48px" />
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="0"
+            android:src="@drawable/clear" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/enter_home"
+        style="@style/ButtonFont"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64px"
+        android:padding="20px"
+        android:text="@string/exit" />
+
+</LinearLayout>

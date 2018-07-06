@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="30px">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="60px"
+        android:paddingLeft="300px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="监测应用：" />
+
+            <TextView
+                android:id="@+id/tv_check_name"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="应用当前版本：" />
+
+            <TextView
+                android:id="@+id/tv_cur_version_code"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="应用最新版本：" />
+
+            <TextView
+                android:id="@+id/tv_new_version_code"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="电子狗当前版本：" />
+
+            <TextView
+                android:id="@+id/tv_edog_cur_version_code"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="60px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="电子狗最新版本：" />
+
+            <TextView
+                android:id="@+id/tv_edog_new_version_code"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="开关机时间：" />
+
+            <TextView
+                android:id="@+id/tv_restart_time"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="入网方式：" />
+
+            <TextView
+                android:id="@+id/tv_network_method"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainMenuText"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="网络状态：" />
+
+            <TextView
+                android:id="@+id/tv_network_status"
+                style="@style/MainMenuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

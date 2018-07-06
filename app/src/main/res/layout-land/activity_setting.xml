@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title_layout" />
+
+    <include
+        layout="@layout/layout_divide_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="40px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="50px"
+        android:paddingRight="50px">
+
+        <TextView
+            style="@style/TitleFont"
+            android:text="@string/picked_app" />
+
+        <TextView
+            android:id="@+id/pick_app_btn"
+            style="@style/TitleFont"
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:gravity="right"
+            android:text="@string/pick_choice_app"
+            android:textColor="#555555" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_divide_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="50px"
+        android:paddingRight="50px">
+
+        <TextView
+            style="@style/TitleFont"
+            android:text="@string/toggle_setting" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/toogle"
+            android:layout_width="92px"
+            android:layout_height="55px"
+            android:background="@drawable/selector_cb_bg"
+            android:button="@null"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_divide_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="50px"
+        android:paddingRight="50px">
+
+        <TextView
+            style="@style/TitleFont"
+            android:text="@string/interval" />
+
+        <EditText
+            android:id="@+id/interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:inputType="number"
+            android:singleLine="true"
+            android:src="@drawable/clear"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/TitleFont"
+            android:layout_marginLeft="10dp"
+            android:text="@string/second" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_divide_horizontal" />
+
+    <Button
+        android:id="@+id/save_setting"
+        style="@style/ButtonFont"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="158px"
+        android:background="@drawable/button_selector"
+        android:text="@string/save_settings" />
+
+
+</LinearLayout>

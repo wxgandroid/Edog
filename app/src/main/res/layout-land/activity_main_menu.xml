@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/on_off_btn"
+            style="@style/ButtonFont"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:text="@string/timing_on_off_setting" />
+
+        <Button
+            android:id="@+id/edog_seting_btn"
+            style="@style/ButtonFont"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:text="@string/edog_setting" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_check_update"
+            style="@style/ButtonFont"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:text="@string/update_setting" />
+
+        <Button
+            android:id="@+id/btn_check_network"
+            style="@style/ButtonFont"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:text="@string/check_network" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/modify_pwd_setting_btn"
+            style="@style/ButtonFont"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:text="@string/modify_pwd" />
+
+        <Button
+            android:id="@+id/open_puji_guanjia_btn"
+            style="@style/ButtonFont"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:text="@string/open_puji_guanjia_btn" />
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <include layout="@layout/layout_main_menu_info" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="980px"
+    android:layout_height="300px"
+    android:background="@drawable/bg_setting_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80px"
+        android:text="已保存设置"
+        android:textColor="#000000"
+        android:textSize="48px" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <include layout="@layout/layout_divide_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#D0021B"
+        android:textSize="50px" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TitleFont">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:textSize">48px</item>
+    </style>
+
+    <style name="ButtonFont" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">980px</item>
+        <item name="android:layout_height">140px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="ToggleFont" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="PromptFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#9b9b9b</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="PJ_Holo_Alert" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MainMenuText">
+        <item name="android:textColor">#9B9B9B</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title_layout" />
+
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="97px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320px"
+        android:src="@drawable/icon_logo" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176px" />
+
+    <TextView
+        android:id="@+id/error_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20px"
+        android:paddingLeft="50px"
+        android:textColor="#ff0000" />
+
+    <FrameLayout
+        android:id="@+id/pwd_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter_setting"
+        android:layout_marginBottom="40px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20px"
+        android:paddingRight="20px">
+
+        <EditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:background="@drawable/selector_edittext_bg"
+            android:hint="@string/pwd_hint"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:src="@drawable/clear"
+            android:textColorHint="#bbbbbb"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/clear" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/enter_setting"
+        style="@style/ButtonFont"
+        android:layout_width="980px"
+        android:layout_height="140px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64px"
+        android:enabled="false"
+        android:text="@string/enter_settings" />
+
+
+</LinearLayout>

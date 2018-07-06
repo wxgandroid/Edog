@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">哈奇媒体机设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">哈奇媒体机设置</string>
+    <string name="enter_settings">进入设置</string>
+    <string name="save_settings">保存设置</string>
+    <string name="pwd_hint">请输入管理员密码进入选项设置</string>
+    <string name="pwd_hint_two">请输入管理员密码</string>
+    <string name="error_display">对不起，密码错误请重试。</string>
+    <string name="on_edog">电子狗已打开</string>
+    <string name="off_edog">电子狗已关闭</string>
+    <string name="toggle_setting">开关设置</string>
+    <string name="modify_pwd">修改密码</string>
+    <string name="open_puji_guanjia_btn">启动应用</string>
+    <string name="interval">嗅探频率</string>
+    <string name="interval_error">嗅探频率不能为空！</string>
+    <string name="second">秒/次</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_modify">ModifyActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_time_setting">TimeSettingActivity</string>
+
+    <string-array name="power_option">
+        <item>关闭定时选项</item>
+        <item>定时开关机</item>
+        <item>定时重启</item>
+        <item>定时关机</item>
+    </string-array>
+
+    <string name="timing_control">定时控制</string>
+    <string name="off_time">关机时间</string>
+    <string name="on_time">开机时间</string>
+    <string name="every_day">"\t\t每天"</string>
+    <string name="old_pwd">"  新   密   码："</string>
+    <string name="new_pwd">" 再次输入新密码："</string>
+    <string name="timing_on_off_setting">定时开关</string>
+    <string name="edog_setting">监测设置</string>
+    <string name="timing_reboot">定时重启：</string>
+    <string name="setting_alert">注意：设置的定时开关机的时间间隔不得短于3分钟</string>
+    <string name="info_prompt_title">消息提示</string>
+    <string name="please_choice_app">选择所要监测的程序</string>
+    <string name="no_install_puji_product">您还没有安装任何Hachi科技产品，电子狗将关闭</string>
+    <string name="not_install_puji_guanjia">对不起你还没有安装Hachi管家，电子狗将退出</string>
+    <string name="error_prompt_title">错误提示</string>
+    <string name="timing_reboot_msg">定时重启设置成功</string>
+    <string name="timing_off_msg">定时关机设置成功</string>
+    <string name="timing_on_off_msg">定时开关机设置成功</string>
+    <string name="modify_password_success">修改密码成功</string>
+    <string name="password_is_error">密码错误,请重新输入</string>
+    <string name="password_can_not_null">密码不能为空</string>
+    <string name="password_must_than_length_than_four_big">密码长度不能小于4</string>
+    <string name="password_diff_error">两次输入的密码不相同，请重新设置</string>
+    <string name="confirm">确定</string>
+    <string name="exit">退出</string>
+    <string name="second_than_three_large">"嗅探频率不能小于3秒/次"</string>
+    <string name="setting_success">设置成功</string>
+    <string name="close_timing_option">已关闭定时选项</string>
+    <string name="title_activity_keyguard">KeyguardActivity</string>
+    <string name="enter_home">进入Home</string>
+    <string name="alert_display">%1$02d</string>
+    <string name="time_format">%1$02d：%2$02d</string>
+    <string name="use_prompt1">1、请输入管理员密码返回媒体机主界面；</string>
+    <string name="use_prompt2">2、如超过30秒未能输入正确的的管理员密码，将会重启%1$s应用；</string>
+    <string name="use_prompt3">3、如媒体机停留在此界面，请联系物业进行处理。</string>
+    <string name="prompt">提示</string>
+    <string name="not_install_puji_guajia_text">对不起，你还没有安装Hachi管家！</string>
+    <string name="title_activity_pick_app_dialog">PickAppDialogAct</string>
+    <string name="picked_app">监测应用</string>
+    <string name="pick_choice_app">点此选择被监测程序</string>
+    <string name="update_setting">更新设置</string>
+    <string name="check_network">网络诊断</string>
+
+</resources>

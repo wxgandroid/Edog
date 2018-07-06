@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title_layout" />
+
+
+    <include
+        layout="@layout/layout_divide_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="150px" />
+
+    <EditText
+        android:id="@+id/new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="请输入新密码"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:singleLine="true"
+        android:textSize="48px" />
+
+    <include layout="@layout/layout_divide_horizontal" />
+
+    <EditText
+        android:id="@+id/re_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="请再次输入新密码"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:singleLine="true"
+        android:textSize="48px" />
+
+    <include layout="@layout/layout_divide_horizontal" />
+
+    <Button
+        android:id="@+id/save_setting"
+        style="@style/ButtonFont"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="136px"
+        android:background="@drawable/button_selector"
+        android:text="@string/save_settings" />
+
+
+</LinearLayout>
